@@ -19,6 +19,17 @@ nuevo cambio 1
 __________________________________________________________________________________________________________________
 nuevo cambio 2
 
+=======
 branch1...
 
 brannch2....
+
+             |  private branch -------------------------
+             |                                                       | 
+             |                                                       |
+-----------master-------------release ------------master------------------master ----   -release--------master
+             |                                                                                         | 1 pull from master to have the master code
+             |                                                                                         | 2 merge to master
+             |  private branch 2 --------------------------------------------------|
+
+
